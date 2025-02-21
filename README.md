@@ -42,6 +42,7 @@ bhhmp_replication_code/
 │   ├── figures/                        # Replicated figures
 │   ├── matfiles/                       # Output .mat files from analysis
 ```
+## Notes
 
 Scripts `S03-S07`, `S10-S14`, and `S17` require running `S02_REG.m` first to generate the output file `productivity_gains_results.mat`. Note that this script can be computationally intensive and may require significant memory resources.
 
@@ -50,11 +51,5 @@ Script `S09` requires running `S08_symmetric_mergers_REG.m` first to produce the
 To replicate **Table D4**, set `param.alpha` to `1.03` in `S02_REG.m` (you can locate `param.alpha` near the top of the script where parameter initialization occurs) and then run `S03_guidelines_table_wages.m` to generate the table.
 
 To replicate **Table D5**, change the `eta` or `theta` values in `S02_REG.m` (these parameters can be found near the top of the script where parameter initialization occurs). You must run `S02_REG.m` four times for the two different values of `eta` and `theta`. After running these, execute `S03_guidelines_table_wages.m` to generate the corresponding output tables.
-
-## Notes
-
-- The code has been tested on macOS and Linux platforms with MATLAB R2019b.
-- Ensure all necessary MATLAB toolboxes are installed before running the scripts.
-- Some scripts, particularly those involving simulations, may require substantial computation time.
 
 For any issues or questions, please contact Thomas Hasenzagl at thomas.hasenzagl@gmail.com or any of the other authors of the paper.
