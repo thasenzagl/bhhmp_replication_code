@@ -36,7 +36,7 @@ bhhmp_replication_code/
 │   ├── S15_output_losses.m             # Replicates Figure D2
 │   ├── S16_employment_losses.m         # Replicates Figure D3
 │   ├── S17_error_rates.m               # Replicates Table D2
-│── functions/                          # Contains reusable MATLAB functions used across scripts
+│── functions/                          # Contains MATLAB functions used across scripts
 │── results/                            # Stores output files, including tables and figures
 │   ├── tables/                         # Replicated tables
 │   ├── figures/                        # Replicated figures
