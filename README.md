@@ -29,7 +29,7 @@ bhhmp_replication_code/
 │   ├── S08_symmetric_mergers_REG.m     # Computes REGs for figure B1
 │   ├── S09_symmetric_mergers_figure.m  # Replicates Figure B1
 │   ├── S10_REGs_percentile.m           # Replicates Figure C1
-│   ├── S11_REGs_shares.m              # Replicates Figure C2
+│   ├── S11_REGs_shares.m               # Replicates Figure C2
 │   ├── S12_merger_fractions.m          # Replicates Figure C3
 │   ├── S13_unidimensional_figure.m     # Replicates Figure D1
 │   ├── S14_unidimensional_table.m      # Replicates Table D1
