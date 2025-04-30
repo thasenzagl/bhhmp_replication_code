@@ -5,7 +5,7 @@ close all;
 addpath(genpath('../functions'));
 
 arnold_cutoff = true;
-load_results = true;
+load_results = false;
 
 %% 2. Load results
 
@@ -135,7 +135,7 @@ fid = fopen('../results/tables/table4_guidelines_welfare.tex','w');
 
 fprintf(fid,'\\begin{tabular}{l @{\\hspace{2em}} c @{\\hspace{1.5em}}c}\n');
 fprintf(fid,'\\toprule\n');
-fprintf(fid,' & \\multicolumn{1}{l}{\\textbf{{------1982 guidelines------ $\\quad$ }}} & \\multicolumn{1}{l}{\\textbf{{------2010 guidelines------}}} \\\\ \n');
+fprintf(fid,' & \\multicolumn{1}{l}{\\textbf{{------1982/2023 guidelines------ $\\quad$ }}} & \\multicolumn{1}{l}{\\textbf{{------2010 guidelines------}}} \\\\ \n');
 fprintf(fid,'DOJ/FTC Market Classification & \\textit{Highly Concentrated} & \\textit{Highly Concentrated} \\\\ \n');
 fprintf(fid,'Threshold (HHI, $\\Delta$HHI) & (1800, 100) & (2500, 200) \\\\ \n');
 fprintf(fid,' & (1) & (2) \\\\ \n');

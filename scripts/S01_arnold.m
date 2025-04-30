@@ -1627,18 +1627,18 @@ for i = 1:numel(printvec)
         end
         
         % Values with phantom alignment for small numbers
-        fprintf(fid, 'Change in log worker earnings (%s concentration) $(\\times 100)$ & Table 6 & \\phantom{0}%.1f & & \\phantom{0}%.1f \\\\ \n', ...
+        fprintf(fid, 'Change in log worker earnings (%s concentration) $(\times 100)$ & Table 6 & \\phantom{0}%.1f & & \\phantom{0}%.1f \\\\ \n', ...
             concentration, 100 * results_arnold(mm), 100 * results_random(mm));
     elseif mm == 1 || mm == 3 || mm == 6
         % Regular log changes
         if mm == 1
-            moment_name = 'Change in log employment $(\\times 100)$';
+            moment_name = 'Change in log employment $(\times 100)$';
             table_ref = 3;
         elseif mm == 3
-            moment_name = 'Change in log payroll $(\\times 100)$';
+            moment_name = 'Change in log payroll $(\times 100)$';
             table_ref = 3;
         elseif mm == 6
-            moment_name = 'Change in log worker earnings $(\\times 100)$';
+            moment_name = 'Change in log worker earnings $(\times 100)$';
             table_ref = 5;
         end
         

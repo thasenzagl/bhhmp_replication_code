@@ -9,6 +9,10 @@ arnold_cutoff = true;
 %% 2. Load results
 
 load('../results/matfiles/productivity_gains_results');
+productivity_gains_results_09eta = load('../results/matfiles/productivity_gains_results_09eta');
+productivity_gains_results_11eta = load('../results/matfiles/productivity_gains_results_11eta');
+productivity_gains_results_09theta = load('../results/matfiles/productivity_gains_results_09eta');
+productivity_gains_results_11theta = load('../results/matfiles/productivity_gains_results_11theta');
 
 % Compute delta HHI
 delta_HHI = zeros(1,size(out_none.s_ij,2));
@@ -46,8 +50,7 @@ end
 %% Make table
 
 HHI_grid = [[0.1, 0.01]; [0.18, 0.01]; [0.15, 0.01]; [0.25, 0.02]];
-tab = zeros(10, size(HHI_grid,1));
-Delta = [1, 2, 3, 4, 5];
+tab = zeros(8, size(HHI_grid,1));
 
 for i=1:size(HHI_grid,1)
     
@@ -68,29 +71,25 @@ for i=1:size(HHI_grid,1)
     
     % AVERAGE WAGE OF ALL FIRMS
     % Probability of blocking a merger that would have generated WS gain
-    tab(1,i) = mean(out.Delta_j(idx_permitted,1));
-    tab(3,i) = 100*sum(out.Delta_j(idx_blocked,1)<Delta(1))/sum(idx_blocked);
-    tab(5,i) = 100*sum(out.Delta_j(idx_blocked,1)<Delta(2))/sum(idx_blocked);
-    tab(7,i) = 100*sum(out.Delta_j(idx_blocked,1)<Delta(3))/sum(idx_blocked); 
-    tab(9,i) = 100*sum(out.Delta_j(idx_blocked,1)<Delta(4))/sum(idx_blocked);
-    tab(11,i) = 100*sum(out.Delta_j(idx_blocked,1)<Delta(5))/sum(idx_blocked);      
+    tab(1,i) = mean(productivity_gains_results_09eta.out.Delta_j(idx_permitted,1));
+    tab(3,i) = mean(productivity_gains_results_11eta.out.Delta_j(idx_permitted,1));
+    tab(5,i) = mean(productivity_gains_results_09theta.out.Delta_j(idx_permitted,1));
+    tab(7,i) = mean(productivity_gains_results_11theta.out.Delta_j(idx_permitted,1));
     
     % Probability of letting a merger through that generates WS loss
-    tab(2,i) = mean(out.Delta_j(idx_blocked,1));
-    tab(4,i) = 100*sum(out.Delta_j(idx_permitted,1)>Delta(1))/sum(idx_permitted);
-    tab(6,i) = 100*sum(out.Delta_j(idx_permitted,1)>Delta(2))/sum(idx_permitted);
-    tab(8,i) = 100*sum(out.Delta_j(idx_permitted,1)>Delta(3))/sum(idx_permitted);
-    tab(10,i) = 100*sum(out.Delta_j(idx_permitted,1)>Delta(4))/sum(idx_permitted);
-    tab(12,i) = 100*sum(out.Delta_j(idx_permitted,1)>Delta(5))/sum(idx_permitted);
+    tab(2,i) = mean(productivity_gains_results_09eta.out.Delta_j(idx_blocked,1));
+    tab(4,i) = mean(productivity_gains_results_11eta.out.Delta_j(idx_blocked,1));
+    tab(6,i) = mean(productivity_gains_results_09theta.out.Delta_j(idx_blocked,1));
+    tab(8,i) = mean(productivity_gains_results_11theta.out.Delta_j(idx_blocked,1));
        
 end
 
 
 %% Latex table 1
 
-names = {'Permitted mergers', 'Blocked mergers', 'Probability that a blocked merger yields WS gain', 'Probability that a permitted merger yields WS loss', 'Probability that a blocked merger yields WS gain', 'Probability that a permitted merger yields WS loss', 'Probability that a blocked merger yields WS gain', 'Probability that a permitted merger yields WS loss', 'Probability that a blocked merger yields WS gain', 'Probability that a permitted merger yields WS loss', 'Probability that a blocked merger yields WS gain', 'Probability that a permitted merger yields WS loss', 'Probability that a blocked merger yields WS gain', 'Probability that a permitted merger yields WS loss'};
+names = {'Permitted mergers', 'Blocked mergers', 'Permitted mergers', 'Blocked mergers', 'Permitted mergers', 'Blocked mergers','Permitted mergers', 'Blocked mergers'};
 
-fid = fopen('../results/tables/tableD2_errorrates.tex','w');
+fid = fopen('../results/tables/tableD5_varying_params.tex','w');
 
 fprintf(fid,'\\begin{tabular}{l @{\\hspace{1em}} cc @{\\hspace{3em}} cc}\n');
 fprintf(fid,'\\toprule\n');
@@ -106,7 +105,7 @@ fprintf(fid,' & (1) & (2) & (3) & (4) \\\\ \n');
 
 fprintf(fid,'\\midrule\n');
 
-fprintf(fid,'\\multicolumn{5}{l}{\\textbf{I. Average REG}} \\\\ \n');
+fprintf(fid,'\\multicolumn{5}{l}{\\textbf{I. Average REG for $0.9 \\times \\eta$}} \\\\ \n');
 
 for i = 1:2
     fprintf(fid,'%s & %3.2f & %3.2f & %3.2f & %3.2f \\\\ \n', names{i}, tab(i,:));    
@@ -114,7 +113,7 @@ end
 
 fprintf(fid,'\\midrule\n');
 
-fprintf(fid,'\\multicolumn{5}{l}{\\textbf{II. Error rates assuming 1 percent efficiency gain ($\\%%$)}} \\\\ \n');
+fprintf(fid,'\\multicolumn{5}{l}{\\textbf{II. Average REG for $1.1 \\times \\eta$}} \\\\ \n');
 
 for i = 3:4
     fprintf(fid,'%s & %3.2f & %3.2f & %3.2f & %3.2f \\\\ \n', names{i}, tab(i,:));    
@@ -122,7 +121,7 @@ end
 
 fprintf(fid,'\\midrule\n');
 
-fprintf(fid,'\\multicolumn{5}{l}{\\textbf{III. Error rates assuming 2 percent efficiency gain ($\\%%$)}} \\\\ \n');
+fprintf(fid,'\\multicolumn{5}{l}{\\textbf{III. Average REG for $0.9 \\times \\theta$}} \\\\ \n');
 
 for i = 5:6
     fprintf(fid,'%s & %3.2f & %3.2f & %3.2f & %3.2f \\\\ \n', names{i}, tab(i,:));    
@@ -130,25 +129,9 @@ end
 
 fprintf(fid,'\\midrule\n');
 
-fprintf(fid,'\\multicolumn{5}{l}{\\textbf{IV. Error rates assuming 3 percent efficiency gain ($\\%%$)}} \\\\ \n');
+fprintf(fid,'\\multicolumn{5}{l}{\\textbf{IV. Average REG for $1.1 \\times \\theta$}} \\\\ \n');
 
 for i = 7:8
-    fprintf(fid,'%s & %3.2f & %3.2f & %3.2f & %3.2f \\\\ \n', names{i}, tab(i,:));    
-end
-
-fprintf(fid,'\\midrule\n');
-
-fprintf(fid,'\\multicolumn{5}{l}{\\textbf{V. Error rates assuming 4 percent efficiency gain ($\\%%$)}} \\\\ \n');
-
-for i = 9:10
-    fprintf(fid,'%s & %3.2f & %3.2f & %3.2f & %3.2f \\\\ \n', names{i}, tab(i,:));    
-end
-
-fprintf(fid,'\\midrule\n');
-
-fprintf(fid,'\\multicolumn{5}{l}{\\textbf{VI. Error rates assuming 5 percent efficiency gain ($\\%%$)}} \\\\ \n');
-
-for i = 11:12
     fprintf(fid,'%s & %3.2f & %3.2f & %3.2f & %3.2f \\\\ \n', names{i}, tab(i,:));    
 end
 
@@ -156,22 +139,5 @@ end
 fprintf(fid,'\\bottomrule \n');
 fprintf(fid,'\\end{tabular}');
 fclose(fid);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

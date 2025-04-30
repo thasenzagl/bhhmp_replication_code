@@ -1,0 +1,412 @@
+\ifx\undefined\BySame
+\newcommand{\BySame}{\leavevmode\rule[.5ex]{3em}{.5pt}\ }
+\fi
+\ifx\undefined\textsc
+\newcommand{\textsc}[1]{{\sc #1}}
+\newcommand{\emph}[1]{{\em #1\/}}
+\let\tmpsmall\small
+\renewcommand{\small}{\tmpsmall\sc}
+\fi
+\begin{thebibliography}{}
+
+\harvarditem[Alexander and Salop]{Alexander and
+  Salop}{2023}{alexander2023antitrust}
+\textsc{Alexander, L.,  {\small and} S.~C. Salop}  (2023): ``Antitrust worker
+  protections: The rule of reason does not allow counting of out-of-market
+  benefits,'' \emph{University of Chicago Law Review}, 90(2), 2.
+
+\harvarditem[Anderson, De~Palma, and Thisse]{Anderson, De~Palma, and
+  Thisse}{1987}{AndersonDePalmaThisse1987}
+\textsc{Anderson, S.~P., A.~De~Palma,  {\small and} J.-F. Thisse}  (1987):
+  ``{The CES is a Discrete Choice Model?},'' \emph{Economics Letters}, 24(2),
+  139--140.
+
+\harvarditem[Arnold]{Arnold}{2020}{Arnold}
+\textsc{Arnold, D.}  (2020): ``Mergers and Acquisitions, Local Labor Market
+  Concentration, and Worker Outcomes,'' Discussion paper, UC San Diego.
+
+\harvarditem[Ashenfelter, Hosken, and Weinberg]{Ashenfelter, Hosken, and
+  Weinberg}{2014}{ashenfelter2014did}
+\textsc{Ashenfelter, O., D.~Hosken,  {\small and} M.~Weinberg}  (2014): ``Did
+  Robert Bork understate the competitive impact of mergers? Evidence from
+  consummated mergers,'' \emph{The Journal of Law and Economics}, 57(S3),
+  S67--S100.
+
+\harvarditem[Ashenfelter, Hosken, and Weinberg]{Ashenfelter, Hosken, and
+  Weinberg}{2015}{ashenfelter2015efficiencies}
+\textsc{Ashenfelter, O.~C., D.~S. Hosken,  {\small and} M.~C. Weinberg}
+  (2015): ``Efficiencies brewed: pricing and consolidation in the US beer
+  industry,'' \emph{The RAND Journal of Economics}, 46(2), 328--361.
+
+\harvarditem[Azar, Marinescu, Steinbaum, and Taska]{Azar, Marinescu, Steinbaum,
+  and Taska}{2020}{azar2018concentration}
+\textsc{Azar, J., I.~Marinescu, M.~Steinbaum,  {\small and} B.~Taska}  (2020):
+  ``Concentration in US labor markets: Evidence from online vacancy data,''
+  \emph{Labour Economics}, 66, 101886.
+
+\harvarditem[Azar, Berry, and Marinescu]{Azar, Berry, and
+  Marinescu}{2022}{azar2022estimating}
+\textsc{Azar, J.~A., S.~T. Berry,  {\small and} I.~Marinescu}  (2022):
+  ``Estimating labor market power,'' Discussion paper, National Bureau of
+  Economic Research.
+
+\harvarditem[Azkarate-Askasua and Zerecero]{Azkarate-Askasua and
+  Zerecero}{2020}{azkarate2020aggregate}
+\textsc{Azkarate-Askasua, M.,  {\small and} M.~Zerecero}  (2020): ``The
+  Aggregate Effects of Labor Market Concentration,'' \emph{Unpublished Working
+  Paper}.
+
+\harvarditem[Bagga]{Bagga}{2023}{bagga2023firm}
+\textsc{Bagga, S.}  (2023): ``Firm market power, worker mobility, and wages in
+  the US labor market,'' \emph{Journal of Labor Economics}, 41(S1), S205--S256.
+
+\harvarditem[Barkai]{Barkai}{2020}{barkai2016declining}
+\textsc{Barkai, S.}  (2020): ``Declining Labor and Capital Shares,'' \emph{The
+  Journal of Finance}, 75(5), 2421--2463.
+
+\harvarditem[Berger, Hasenzagl, Herkenhoff, Mongey, and Posner]{Berger,
+  Hasenzagl, Herkenhoff, Mongey, and Posner}{2023}{berger2023comments}
+\textsc{Berger, D., T.~Hasenzagl, K.~Herkenhoff, S.~Mongey,  {\small and}
+  E.~Posner}  (2023): ``Comments on the 2023 Draft Merger Guidelines: A Labor
+  Market Perspective,'' .
+
+\harvarditem[Berger, Herkenhoff, and Mongey]{Berger, Herkenhoff, and
+  Mongey}{2022}{berger2022labor}
+\textsc{Berger, D., K.~Herkenhoff,  {\small and} S.~Mongey}  (2022): ``Labor
+  market power,'' \emph{American Economic Review}, 112(4), 1147--93.
+
+\harvarditem[Berger, Herkenhoff, Kost{\o}l, and Mongey]{Berger, Herkenhoff,
+  Kost{\o}l, and Mongey}{2024}{berger2023anatomy}
+\textsc{Berger, D.~W., K.~F. Herkenhoff, A.~R. Kost{\o}l,  {\small and}
+  S.~Mongey}  (2024): ``An Anatomy of Monopsony: Search Frictions, Amenities
+  and Bargaining in Concentrated Markets,'' \emph{NBER Macro Annual}.
+
+\harvarditem[Berger, Herkenhoff, and Mongey]{Berger, Herkenhoff, and
+  Mongey}{2024}{berger2022minimum}
+\textsc{Berger, D.~W., K.~F. Herkenhoff,  {\small and} S.~Mongey}  (2024):
+  ``Minimum wages, efficiency and welfare,'' Discussion paper, National Bureau
+  of Economic Research.
+
+\harvarditem[Blonigen and Pierce]{Blonigen and
+  Pierce}{2016}{blonigen2016evidence}
+\textsc{Blonigen, B.~A.,  {\small and} J.~R. Pierce}  (2016): ``Evidence for
+  the effects of mergers on market power and efficiency,'' Discussion paper,
+  National Bureau of Economic Research.
+
+\harvarditem[Bonnet and Schain]{Bonnet and Schain}{2017}{bonnet2017empirical}
+\textsc{Bonnet, C.,  {\small and} J.~P. Schain}  (2017): ``An Empirical
+  Analysis of Mergers: Efficiency Gains and Impact on Consumer Prices,''
+  Discussion paper, Toulouse School of Economics (TSE).
+
+\harvarditem[Bonnet and Schain]{Bonnet and Schain}{2020}{bonnet2020empirical}
+\textsc{\BySame{}}  (2020): ``An empirical analysis of mergers: Efficiency
+  gains and impact on consumer prices,'' \emph{Journal of Competition Law \&
+  Economics}, 16(1), 1--35.
+
+\harvarditem[Brooks, Kaboski, Li, and Qian]{Brooks, Kaboski, Li, and
+  Qian}{2021}{brooks2021exploitation}
+\textsc{Brooks, W.~J., J.~P. Kaboski, Y.~A. Li,  {\small and} W.~Qian}  (2021):
+  ``Exploitation of labor? Classical monopsony power and labor's share,''
+  \emph{Journal of Development Economics}, 150, 102627.
+
+\harvarditem[Card, Cardoso, Heining, and Kline]{Card, Cardoso, Heining, and
+  Kline}{2018}{card2018firms}
+\textsc{Card, D., A.~R. Cardoso, J.~Heining,  {\small and} P.~Kline}  (2018):
+  ``Firms and labor market inequality: Evidence and some theory,''
+  \emph{Journal of Labor Economics}, 36(S1), 13--70.
+
+\harvarditem[Cavenaile, Celik, and Tian]{Cavenaile, Celik, and
+  Tian}{2021}{cavenaile2021dynamic}
+\textsc{Cavenaile, L., M.~A. Celik,  {\small and} X.~Tian}  (2021): ``The
+  dynamic effects of antitrust policy on growth and welfare,'' \emph{Journal of
+  Monetary Economics}, 121, 42--59.
+
+\harvarditem[Ciccone and Hall]{Ciccone and Hall}{1993}{ciccone1993productivity}
+\textsc{Ciccone, A.,  {\small and} R.~E. Hall}  (1993): ``Productivity and the
+  density of economic activity,'' .
+
+\harvarditem[Conyon, Girma, Thompson, and Wright]{Conyon, Girma, Thompson, and
+  Wright}{2002}{conyon2002impact}
+\textsc{Conyon, M.~J., S.~Girma, S.~Thompson,  {\small and} P.~W. Wright}
+  (2002): ``The impact of mergers and acquisitions on company employment in the
+  United Kingdom,'' \emph{European Economic Review}, 46(1), 31--49.
+
+\harvarditem[David]{David}{2021}{david2021aggregate}
+\textsc{David, J.~M.}  (2021): ``The aggregate implications of mergers and
+  acquisitions,'' \emph{The Review of Economic Studies}, 88(4), 1796--1830.
+
+\harvarditem[Davis, Fisher, and Whited]{Davis, Fisher, and
+  Whited}{2014}{davis2014macroeconomic}
+\textsc{Davis, M.~A., J.~D. Fisher,  {\small and} T.~M. Whited}  (2014):
+  ``Macroeconomic implications of agglomeration,'' \emph{Econometrica}, 82(2),
+  731--764.
+
+\harvarditem[Davis, Haltiwanger, Handley, Jarmin, Lerner, and Miranda]{Davis,
+  Haltiwanger, Handley, Jarmin, Lerner, and Miranda}{2014}{davis2014private}
+\textsc{Davis, S.~J., J.~Haltiwanger, K.~Handley, R.~Jarmin, J.~Lerner,
+  {\small and} J.~Miranda}  (2014): ``Private equity, jobs, and productivity,''
+  \emph{American Economic Review}, 104(12), 3956--90.
+
+\harvarditem[Deb, Eeckhout, Patel, and Warren]{Deb, Eeckhout, Patel, and
+  Warren}{2022}{deb2022drives}
+\textsc{Deb, S., J.~Eeckhout, A.~Patel,  {\small and} L.~Warren}  (2022):
+  ``What drives wage stagnation: Monopsony or Monopoly?,'' \emph{Journal of the
+  European Economic Association}.
+
+\harvarditem[DOJ and FTC]{DOJ and FTC}{2024}{kroger2024}
+\textsc{DOJ, T.,  {\small and} T.~FTC}  (2024): ``In the Matter of The Kroger
+  Company and Albertsons Companies, Inc.,'' Discussion paper, DOJ and FTC.
+
+\harvarditem[{DOJ and FTC}]{{DOJ and FTC}}{1982}{doj1982guidelines}
+\textsc{{DOJ and FTC}}  (1982): ``1982 Merger Guidelines,'' Discussion paper,
+  United States Federal Government.
+
+\harvarditem[{DOJ and FTC}]{{DOJ and FTC}}{2010}{doj2010guidelines}
+\textsc{\BySame{}}  (2010): ``Horizontal Merger Guidelines of the United States
+  Department of Justice and the Federal Trade Commission,'' Discussion paper,
+  United States Federal Government.
+
+\harvarditem[{DOJ and FTC}]{{DOJ and FTC}}{2023a}{doj2023guidelines}
+\textsc{\BySame{}}  (2023a): ``2023 Draft Merger Guidelines,'' Discussion
+  paper, United States Federal Government.
+
+\harvarditem[{DOJ and FTC}]{{DOJ and FTC}}{2023b}{doj2023final}
+\textsc{\BySame{}}  (2023b): ``2023 Merger Guidelines,'' Discussion paper,
+  United States Federal Government.
+
+\harvarditem[Easterbrook]{Easterbrook}{2023}{deslandes2023}
+\textsc{Easterbrook, F.~H.}  (2023): ``Leinani Deslandes v. McDonald's USA
+  LLC,'' \emph{United States Court of Appeals For the Seventh Circuit}, No.
+  22-2333.
+
+\harvarditem[Engbom and Moser]{Engbom and Moser}{2022}{engbom2022earnings}
+\textsc{Engbom, N.,  {\small and} C.~Moser}  (2022): ``Earnings inequality and
+  the minimum wage: Evidence from Brazil,'' \emph{American Economic Review},
+  112(12), 3803--3847.
+
+\harvarditem[Farrell and Shapiro]{Farrell and
+  Shapiro}{1990}{farrell1990horizontal}
+\textsc{Farrell, J.,  {\small and} C.~Shapiro}  (1990): ``Horizontal mergers:
+  an equilibrium analysis,'' \emph{The American Economic Review}, pp. 107--126.
+
+\harvarditem[Farrell and Shapiro]{Farrell and
+  Shapiro}{2010}{farrell2010antitrust}
+\textsc{\BySame{}}  (2010): ``Antitrust evaluation of horizontal mergers: An
+  economic alternative to market definition,'' \emph{Available at SSRN
+  1313782}.
+
+\harvarditem[Geurts and Van~Biesebroeck]{Geurts and
+  Van~Biesebroeck}{2017}{geurts2017employment}
+\textsc{Geurts, K.,  {\small and} J.~Van~Biesebroeck}  (2017): ``Employment
+  growth following takeovers,'' \emph{CEPR}.
+
+\harvarditem[Goldschmidt and Schmieder]{Goldschmidt and
+  Schmieder}{2017}{goldschmidt2017rise}
+\textsc{Goldschmidt, D.,  {\small and} J.~F. Schmieder}  (2017): ``The rise of
+  domestic outsourcing and the evolution of the German wage structure,''
+  \emph{The Quarterly Journal of Economics}, 132(3), 1165--1217.
+
+\harvarditem[Gowrisankaran, Nevo, and Town]{Gowrisankaran, Nevo, and
+  Town}{2015}{Nevo2015monopsony}
+\textsc{Gowrisankaran, G., A.~Nevo,  {\small and} R.~Town}  (2015): ``Mergers
+  When Prices Are Negotiated: Evidence from the Hospital Industry,''
+  \emph{American Economic Review}, 105(1), 172--203.
+
+\harvarditem[Gugler and Yurtoglu]{Gugler and Yurtoglu}{2004}{gugler2004effects}
+\textsc{Gugler, K.,  {\small and} B.~B. Yurtoglu}  (2004): ``The effects of
+  mergers on company employment in the USA and Europe,'' \emph{International
+  Journal of Industrial Organization}, 22(4), 481--502.
+
+\harvarditem[Hasenzagl]{Hasenzagl}{2024}{ThomasJMP}
+\textsc{Hasenzagl, T.}  (2024): ``Scaling Up: How Technology and Policy Shape
+  Firm Dynamics,'' Working Paper - University of Minnesota.
+
+\harvarditem[Hemphill and Rose]{Hemphill and Rose}{2018}{hemphill2018mergers}
+\textsc{Hemphill, C.~S.,  {\small and} N.~L. Rose}  (2018): ``Mergers that harm
+  sellers,'' \emph{The Yale Law Journal}, pp. 2078--2109.
+
+\harvarditem[Herkenhoff, Ohanian, and Prescott]{Herkenhoff, Ohanian, and
+  Prescott}{2018}{herkenhoff2018tarnishing}
+\textsc{Herkenhoff, K.~F., L.~E. Ohanian,  {\small and} E.~C. Prescott}
+  (2018): ``Tarnishing the golden and empire states: Land-use restrictions and
+  the US economic slowdown,'' \emph{Journal of Monetary Economics}, 93,
+  89--109.
+
+\harvarditem[Ho and Lee]{Ho and Lee}{2017}{Ho2017monopsony}
+\textsc{Ho, K.,  {\small and} R.~S. Lee}  (2017): ``Insurer Competition in
+  Health Care Markets,'' \emph{Econometrica}, 85(2), 379--417.
+
+\harvarditem[Holmes and Schmitz~Jr]{Holmes and
+  Schmitz~Jr}{2010}{holmes2010competition}
+\textsc{Holmes, T.~J.,  {\small and} J.~A. Schmitz~Jr}  (2010): ``Competition
+  and productivity: a review of evidence,'' \emph{Annu. Rev. Econ.}, 2(1),
+  619--642.
+
+\harvarditem[Hovenkamp]{Hovenkamp}{2022}{hovenkamp2022worker}
+\textsc{Hovenkamp, H.}  (2022): ``Worker Welfare and Antitrust,''
+  \emph{Available at SSRN 4015834}.
+
+\harvarditem[Ivaldi and Verboven]{Ivaldi and
+  Verboven}{2005}{ivaldi2005quantifying}
+\textsc{Ivaldi, M.,  {\small and} F.~Verboven}  (2005): ``Quantifying the
+  effects from horizontal mergers in European competition policy,''
+  \emph{International Journal of Industrial Organization}, 23(9-10), 669--691.
+
+\harvarditem[J{\"a}ger, Roth, Roussille, and Schoefer]{J{\"a}ger, Roth,
+  Roussille, and Schoefer}{2022}{jager2022worker}
+\textsc{J{\"a}ger, S., C.~Roth, N.~Roussille,  {\small and} B.~Schoefer}
+  (2022): ``Worker beliefs about outside options,'' Discussion paper, National
+  Bureau of Economic Research.
+
+\harvarditem[Jarosch, Nimczik, and Sorkin]{Jarosch, Nimczik, and
+  Sorkin}{2024}{jarosch2024granular}
+\textsc{Jarosch, G., J.~S. Nimczik,  {\small and} I.~Sorkin}  (2024):
+  ``Granular search, market structure, and wages,'' \emph{Review of Economic
+  Studies}, p. rdae004.
+
+\harvarditem[Jungerman]{Jungerman}{2023}{jungerman2023dynamic}
+\textsc{Jungerman, W.}  (2023): ``Dynamic Monopsony and Human Capital,''
+  Discussion paper, mimeo.
+
+\harvarditem[Kennan and Walker]{Kennan and Walker}{2011}{kennan2011effect}
+\textsc{Kennan, J.,  {\small and} J.~R. Walker}  (2011): ``The effect of
+  expected income on individual migration decisions,'' \emph{Econometrica},
+  79(1), 211--251.
+
+\harvarditem[Kline, Petkova, Williams, and Zidar]{Kline, Petkova, Williams, and
+  Zidar}{2019}{klineQJE2018}
+\textsc{Kline, P., N.~Petkova, H.~Williams,  {\small and} O.~Zidar}  (2019):
+  ``Who Profits from Patents? Rent-Sharing at Innovative Firms,''
+  \emph{Quarterly Journal of Economics}, 134(3), 1343--404.
+
+\harvarditem[Lamadon, Mogstad, and Setzler]{Lamadon, Mogstad, and
+  Setzler}{2022}{lamadon2022imperfect}
+\textsc{Lamadon, T., M.~Mogstad,  {\small and} B.~Setzler}  (2022): ``Imperfect
+  competition, compensating differentials, and rent sharing in the US labor
+  market,'' \emph{American Economic Review}, 112(1), 169--212.
+
+\harvarditem[Maksimovic and Phillips]{Maksimovic and
+  Phillips}{2001}{maksimovic2001market}
+\textsc{Maksimovic, V.,  {\small and} G.~Phillips}  (2001): ``The market for
+  corporate assets: Who engages in mergers and asset sales and are there
+  efficiency gains?,'' \emph{The Journal of Finance}, 56(6), 2019--2065.
+
+\harvarditem[Malmendier, Moretti, and Peters]{Malmendier, Moretti, and
+  Peters}{2018}{malmendier2018winning}
+\textsc{Malmendier, U., E.~Moretti,  {\small and} F.~S. Peters}  (2018):
+  ``Winning by losing: evidence on the long-run effects of mergers,'' \emph{The
+  Review of Financial Studies}, 31(8), 3212--3264.
+
+\harvarditem[Marinescu and Hovenkamp]{Marinescu and
+  Hovenkamp}{2019}{marinescu2019anticompetitive}
+\textsc{Marinescu, I.,  {\small and} H.~Hovenkamp}  (2019): ``Anticompetitive
+  mergers in labor markets,'' \emph{Ind. LJ}, 94, 1031.
+
+\harvarditem[Masur and Posner]{Masur and Posner}{2022}{masur2022horizontal}
+\textsc{Masur, J.~S.,  {\small and} E.~A. Posner}  (2022): ``Horizontal
+  Collusion and Parallel Wage-Setting in Labor Markets,'' \emph{Available at
+  SSRN 4008687}.
+
+\harvarditem[Milosavljevic]{Milosavljevic}{2025}{FilipJMP}
+\textsc{Milosavljevic, F.}  (2025): ``Mergers and Acquisitions: Market Power or
+  Efficiency,'' Working Paper - Washington University in St Louis.
+
+\harvarditem[Naidu, Posner, and Weyl]{Naidu, Posner, and
+  Weyl}{2018}{naidu2018antitrust}
+\textsc{Naidu, S., E.~A. Posner,  {\small and} G.~Weyl}  (2018): ``Antitrust
+  remedies for labor market power,'' \emph{Harvard law review}, 132(2),
+  536--601.
+
+\harvarditem[Nocke and Schutz]{Nocke and Schutz}{2018}{nocke2018multiproduct}
+\textsc{Nocke, V.,  {\small and} N.~Schutz}  (2018): ``Multiproduct-firm
+  oligopoly: An aggregative games approach,'' \emph{Econometrica}, 86(2),
+  523--557.
+
+\harvarditem[Nocke and Whinston]{Nocke and
+  Whinston}{2022}{nocke2022concentration}
+\textsc{Nocke, V.,  {\small and} M.~D. Whinston}  (2022): ``Concentration
+  Thresholds for Horizontal Mergers,'' \emph{American Economic Review}, 112(6),
+  1915--48.
+
+\harvarditem[Olsson and T{\aa}g]{Olsson and T{\aa}g}{2017}{olsson2017private}
+\textsc{Olsson, M.,  {\small and} J.~T{\aa}g}  (2017): ``Private equity,
+  layoffs, and job polarization,'' \emph{Journal of Labor Economics}, 35(3),
+  697--754.
+
+\harvarditem[Ouimet and Zarutskie]{Ouimet and
+  Zarutskie}{2016}{ouimet2016acquiring}
+\textsc{Ouimet, P.,  {\small and} R.~Zarutskie}  (2016): ``Acquiring Labor,''
+  \emph{Available at SSRN 1571891}.
+
+\harvarditem[Pan]{Pan}{2021}{penguin2022}
+\textsc{Pan, F.~Y.}  (2021): ``{UNITED STATES OF AMERICA v. BERTELSMANN SE \&
+  CO. KGaA, PENGUIN RANDOM HOUSE, LLC, VIACOMCBS, INC., and SIMON \& SCHUSTER,
+  INC.},'' \emph{Memorandum Opinion}, {Civil Action No. 21-2886-FYP}.
+
+\harvarditem[Pittman]{Pittman}{2007}{pittman2007consumer}
+\textsc{Pittman, R.~W.}  (2007): ``Consumer surplus as the appropriate standard
+  for antitrust enforcement,'' \emph{Competition Policy International}, 3(2).
+
+\harvarditem[Posner]{Posner}{2023}{posner2023new}
+\textsc{Posner, E.}  (2023): ``The New Labor Antitrust,'' \emph{University of
+  Chicago Coase-Sandor Institute for Law \& Economics Research Paper}.
+
+\harvarditem[Posner]{Posner}{2021}{posner2021antitrust}
+\textsc{Posner, E.~A.}  (2021): \emph{How antitrust failed workers}. Oxford
+  University Press.
+
+\harvarditem[Prager and Schmitt]{Prager and Schmitt}{2021a}{prager2021mergers}
+\textsc{Prager, E.,  {\small and} M.~Schmitt}  (2021a): ``Employer
+  Consolidation and Wages: Evidence from Hospitals,'' \emph{American Economic
+  Review}, 111(2), 397--427.
+
+\harvarditem[Prager and Schmitt]{Prager and Schmitt}{2021b}{prager2021employer}
+\textsc{\BySame{}}  (2021b): ``Employer consolidation and wages: Evidence from
+  hospitals,'' \emph{American Economic Review}, 111(2), 397--427.
+
+\harvarditem[Robinson]{Robinson}{1933}{Robinson1933}
+\textsc{Robinson, J.}  (1933): \emph{The Economics of Imperfect Competition}.
+  Palgrave Macmillan.
+
+\harvarditem[Roussille and Scuderi]{Roussille and
+  Scuderi}{2023}{roussille2023bidding}
+\textsc{Roussille, N.,  {\small and} B.~Scuderi}  (2023): ``Bidding for talent:
+  A test of conduct in a high-wage labor market,'' .
+
+\harvarditem[Schmitz~Jr]{Schmitz~Jr}{2020}{schmitz2020monopolies}
+\textsc{Schmitz~Jr, J.}  (2020): ``Monopolies Inflict Great Harm on Low-and
+  Middle-Income Americans,'' Discussion paper, Federal Reserve Bank of
+  Minneapolis.
+
+\harvarditem[Staiger, Spetz, and Phibbs]{Staiger, Spetz, and
+  Phibbs}{2010}{staiger2010there}
+\textsc{Staiger, D.~O., J.~Spetz,  {\small and} C.~S. Phibbs}  (2010): ``Is
+  there monopsony in the labor market? Evidence from a natural experiment,''
+  \emph{Journal of Labor Economics}, 28(2), 211--236.
+
+\harvarditem[United~States]{United~States}{2022}{oecd2022}
+\textsc{United~States, T.}  (2022): ``Purchasing Power and Buyers’ Cartels
+  – Note by the United States,'' \emph{Directorate for Financial and
+  Enterprise Affairs Competition Committee}.
+
+\harvarditem[Verboven]{Verboven}{1996}{verboven1996nested}
+\textsc{Verboven, F.}  (1996): ``The nested logit model and representative
+  consumer theory,'' \emph{Economics Letters}, 50(1), 57--63.
+
+\harvarditem[Werden]{Werden}{1996}{werden1996robust}
+\textsc{Werden, G.~J.}  (1996): ``A robust test for consumer welfare enhancing
+  mergers among sellers of differentiated products,'' \emph{The Journal of
+  Industrial Economics}, pp. 409--413.
+
+\harvarditem[Williamson]{Williamson}{1972}{williamson1972economies}
+\textsc{Williamson, O.~E.}  (1972): ``Economies as an anti-trust defense: The
+  welfare tradeoffs,'' \emph{Readings in Industrial Economics: Volume Two:
+  Private Enterprise and State Intervention}, pp. 111--135.
+
+\harvarditem[Yeh, Macaluso, and Hershbein]{Yeh, Macaluso, and
+  Hershbein}{2022}{yeh2022monopsony}
+\textsc{Yeh, C., C.~Macaluso,  {\small and} B.~Hershbein}  (2022): ``Monopsony
+  in the US labor market,'' \emph{American Economic Review}, 112(7),
+  2099--2138.
+
+\end{thebibliography}

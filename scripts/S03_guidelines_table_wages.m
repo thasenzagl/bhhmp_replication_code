@@ -5,7 +5,7 @@ close all;
 addpath(genpath('../functions'));
 
 arnold_cutoff = true;
-load_results = true;
+load_results = false;
 
 %% 2. Load results
 
@@ -130,7 +130,7 @@ fid = fopen('../results/tables/table3_guidelines_wages.tex','w');
 
 fprintf(fid,'\\begin{tabular}{l @{\\hspace{2em}} c @{\\hspace{1.5em}}c}\n');
 fprintf(fid,'\\toprule\n');
-fprintf(fid,' & \\multicolumn{1}{l}{\\textbf{{------1982 guidelines------ $\\quad$ }}} & \\multicolumn{1}{l}{\\textbf{{------2010 guidelines------}}} \\\\ \n');
+fprintf(fid,' & \\multicolumn{1}{l}{\\textbf{{------1982/2023 guidelines------ $\\quad$ }}} & \\multicolumn{1}{l}{\\textbf{{------2010 guidelines------}}} \\\\ \n');
 fprintf(fid,'DOJ/FTC Market Classification & \\textit{Highly Concentrated} & \\textit{Highly Concentrated} \\\\ \n');
 fprintf(fid,'Threshold (HHI, $\\Delta$HHI) & (1800, 100) & (2500, 200) \\\\ \n');
 fprintf(fid,' & (1) & (2) \\\\ \n');
@@ -193,9 +193,9 @@ names = {'Permitted mergers', 'Blocked mergers', 'Permitted mergers','Blocked me
 
 fid = fopen('../results/tables/table3D_guidelines_wages.tex','w');
 
-fprintf(fid,'\\begin{tabular}{l @{\\hspace{2em}} c @{\\hspace{1.5em}}c}\n');
+fprintf(fid,'\\begin{tabular}{l @{\\hspace{1em}} cc @{\\hspace{3em}} cc}\n');
 fprintf(fid,'\\toprule\n');
-fprintf(fid,' & \\multicolumn{2}{l}{\\textbf{{------1982 guidelines------ $\\quad$ }}} & \\multicolumn{2}{l}{\\textbf{{------2010 guidelines------}}} \\\\ \n');
+fprintf(fid,' & \\multicolumn{2}{c}{\\textbf{A. 1982/2023 guidelines}} & \\multicolumn{2}{c}{\\textbf{B. 2010 guidelines}} \\\\ \n');
 fprintf(fid,'\\cmidrule{2-3}\n');
 fprintf(fid,'\\cmidrule{4-5}\n');
 
@@ -203,11 +203,12 @@ fprintf(fid,'DOJ/FTC market classification & Moderate & High & Moderate & High \
 
 fprintf(fid,'Threshold (HHI, $\\Delta$HHI) & (1000,  100) & (1800, 100) & (1500, 100) & (2500, 200) \\\\ \n');
 fprintf(fid,' & (1) & (2) & (3) & (4) \\\\ \n');
+fprintf(fid,'\\midrule\n');
 
 fprintf(fid,'\\multicolumn{5}{l}{\\textbf{I. Average REG}} \\\\ \n');
 
 for i = 1:2
-    fprintf(fid,'%s & %3.2f & %3.2f %3.2f & %3.2f  \\\\ \n', names{i}, tab(i,:));    
+    fprintf(fid,'%s & %3.2f & %3.2f & %3.2f & %3.2f  \\\\ \n', names{i}, tab(i,:));    
 end
 
 fprintf(fid,'\\midrule\n');
@@ -215,7 +216,7 @@ fprintf(fid,'\\midrule\n');
 fprintf(fid,'\\multicolumn{5}{l}{\\textbf{II. Change in average $\\mathbf{W}_j$ assuming 1 percent efficiency gain ($\\%%$)}} \\\\ \n');
 
 for i = 3:4
-    fprintf(fid,'%s & %3.2f & %3.2f %3.2f & %3.2f\\\\ \n', names{i}, tab(i,:));    
+    fprintf(fid,'%s & %3.2f & %3.2f & %3.2f & %3.2f\\\\ \n', names{i}, tab(i,:));    
 end
 
 fprintf(fid,'\\midrule\n');
@@ -223,7 +224,7 @@ fprintf(fid,'\\midrule\n');
 fprintf(fid,'\\multicolumn{5}{l}{\\textbf{III. Change in average $\\mathbf{W}_j$ assuming 2 percent efficiency gain ($\\%%$)}} \\\\ \n');
 
 for i = 5:6
-    fprintf(fid,'%s & %3.2f & %3.2f %3.2f & %3.2f\\\\ \n', names{i}, tab(i,:));    
+    fprintf(fid,'%s & %3.2f & %3.2f & %3.2f & %3.2f \\\\ \n', names{i}, tab(i,:));    
 end
 
 fprintf(fid,'\\midrule\n');
@@ -231,7 +232,7 @@ fprintf(fid,'\\midrule\n');
 fprintf(fid,'\\multicolumn{5}{l}{\\textbf{IV. Change in average $\\mathbf{W}_j$ assuming 3 percent efficiency gain ($\\%%$)}} \\\\ \n');
 
 for i = 7:8
-    fprintf(fid,'%s & %3.2f & %3.2f %3.2f & %3.2f\\\\ \n', names{i}, tab(i,:));    
+    fprintf(fid,'%s & %3.2f & %3.2f & %3.2f & %3.2f \\\\ \n', names{i}, tab(i,:));    
 end
 
 fprintf(fid,'\\midrule\n');
@@ -239,7 +240,7 @@ fprintf(fid,'\\midrule\n');
 fprintf(fid,'\\multicolumn{5}{l}{\\textbf{V. Change in average $\\mathbf{W}_j$ assuming 4 percent efficiency gain ($\\%%$)}} \\\\ \n');
 
 for i = 9:10
-    fprintf(fid,'%s & %3.2f & %3.2f %3.2f & %3.2f\\\\ \n', names{i}, tab(i,:));    
+    fprintf(fid,'%s & %3.2f & %3.2f & %3.2f & %3.2f \\\\ \n', names{i}, tab(i,:));    
 end
 
 fprintf(fid,'\\midrule\n');
@@ -247,7 +248,7 @@ fprintf(fid,'\\midrule\n');
 fprintf(fid,'\\multicolumn{5}{l}{\\textbf{VI. Change in average $\\mathbf{W}_j$ assuming 5 percent efficiency gain ($\\%%$)}} \\\\ \n');
 
 for i = 11:12
-    fprintf(fid,'%s & %3.2f & %3.2f %3.2f & %3.2f\\\\ \n', names{i}, tab(i,:));    
+    fprintf(fid,'%s & %3.2f & %3.2f & %3.2f & %3.2f \\\\ \n', names{i}, tab(i,:));    
 end
 
 % CLOSE TABLE

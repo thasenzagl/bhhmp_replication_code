@@ -1,7 +1,7 @@
 clear all;
 close all;
 
-load_results = true;
+load_results = false;
 
 %% SOLVE MODEL AFTER INCREASING MERGING FIRMS PRODUCTIVITY
 if load_results == false

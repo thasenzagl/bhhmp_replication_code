@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: bhhmp.aux
+The style file: econometrica.bst
+Database file #1: bib_12_14_22.bib
+Warning--empty journal in berger2023comments
+Warning--empty journal in roussille2023bidding
+Done.
+You've used 77 entries,
+            2327 wiz_defined-function locations,
+            921 strings with 14860 characters,
+and the built_in function-call counts, 37692 in all, are:
+= -- 3691
+> -- 2280
+< -- 5
++ -- 751
+- -- 677
+* -- 3406
+:= -- 7303
+add.period$ -- 79
+call.type$ -- 77
+change.case$ -- 491
+chr.to.int$ -- 75
+cite$ -- 79
+duplicate$ -- 1296
+empty$ -- 2191
+format.name$ -- 761
+if$ -- 7236
+int.to.chr$ -- 3
+int.to.str$ -- 0
+missing$ -- 63
+newline$ -- 243
+num.names$ -- 462
+pop$ -- 387
+preamble$ -- 1
+purify$ -- 478
+quote$ -- 0
+skip$ -- 1248
+stack$ -- 0
+substring$ -- 1963
+swap$ -- 264
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 841
+warning$ -- 2
+while$ -- 418
+width$ -- 0
+write$ -- 915
+(There were 2 warnings)

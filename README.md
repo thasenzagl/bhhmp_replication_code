@@ -36,7 +36,15 @@ bhhmp_replication_code/
 │   ├── S15_output_losses.m             # Replicates Figure D2
 │   ├── S16_employment_losses.m         # Replicates Figure D3
 │   ├── S17_error_rates.m               # Replicates Table D2
+│   ├── S18_REG_alpha103.m              # Replicates Table D4
+│   ├── S19_REG_alpha103_table.m        # Computes required efficiency gains with IRS
+│   ├── S20_REG_09eta.m                 # Computes required efficiency gains
+│   ├── S21_REG_11eta.m                 # Computes required efficiency gains
+│   ├── S22_REG_09theta.m               # Computes required efficiency gains
+│   ├── S23_REG_11theta.m               # Computes required efficiency gains
+│   ├── S24_varying_params.m            # Replicates Table D5
 │── functions/                          # Contains MATLAB functions used across scripts
+│── latex/                              # Contains latex code for the paper
 │── results/                            # Stores output files, including tables and figures
 │   ├── tables/                         # Replicated tables
 │   ├── figures/                        # Replicated figures
@@ -48,8 +56,8 @@ Scripts `S03-S07`, `S10-S14`, and `S17` require running `S02_REG.m` first to gen
 
 Script `S09` requires running `S08_symmetric_mergers_REG.m` first to produce the output file `productivity_gains_results_symmetric.mat`.
 
-To replicate **Table D4**, set `param.alpha` to `1.03` in `S02_REG.m` (you can locate `param.alpha` near the top of the script where parameter initialization occurs) and then run `S03_guidelines_table_wages.m` to generate the table.
+Script `S19` requires running `S18_REG_alpha103.m` first to produce the output file `productivity_gains_results_alpha103.mat`.
 
-To replicate **Table D5**, change the `eta` or `theta` values in `S02_REG.m` (these parameters can be found near the top of the script where parameter initialization occurs). You must run `S02_REG.m` four times for the two different values of `eta` and `theta`. After running these, execute `S03_guidelines_table_wages.m` to generate the corresponding output tables.
+Script `S24` requires running scripts `S20-S23` first to produce the relevant output files.
 
 For any issues or questions, please contact Thomas Hasenzagl at thomas.hasenzagl@gmail.com or any of the other authors of the paper.
